@@ -16,6 +16,7 @@
   "devDependencies": {
     "chalk": "^5.2.0",
     "commander": "^10.0.0",
+    "ejs": "^3.1.8",
     "inquirer": "^9.1.4",
     "log-symbols": "^5.1.0"
   }
