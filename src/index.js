@@ -58,17 +58,17 @@ export const created = async (projectName) => {
         }
     ]);
 	console.log('======', lang);
-	const eslint = await inquirer.prompt([
+	const esLint = await inquirer.prompt([
         {
 			type: 'confirm',
-			name: 'eslint',
+			name: 'esLint',
 			message: '是否需要ESlint',
 			default: true
         }
     ]);
-    console.log('=====', eslint);
+    console.log('=====', esLint);
 	if (template.template === 'Vue3') {
-		await vueCreateFile(projectName, styles, lang)
+		await vueCreateFile(projectName, styles, lang, esLint)
 	}
     // let filePath = ''
     // if (template.template === 'Vue3') {
