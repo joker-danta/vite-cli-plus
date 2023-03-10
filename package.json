@@ -1,5 +1,5 @@
 {
-  "name": "vite-cli",
+  "name": "vite-cli-plus",
   "version": "0.0.1",
   "description": "",
   "main": "index.js",
@@ -8,9 +8,15 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "vite-cli": "./bin/bin.js"
+    "vite-cli-plus": "./bin/bin.js"
   },
-  "keywords": [],
+  "keywords": [
+    "View",
+    "Vue",
+    "Cli",
+    "Scss",
+    "Less"
+  ],
   "author": "",
   "license": "ISC",
   "devDependencies": {

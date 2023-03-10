@@ -31,7 +31,7 @@ export const created = async (projectName) => {
 			message: '请选择框架',
 			choices: [
 				'Vue3',
-				'React'
+				// 'React'
 			]
         }
     ]);

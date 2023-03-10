@@ -5,7 +5,7 @@ import logSymbols from 'log-symbols';
 import chalk from 'chalk';
 import { created } from '../src/index.js';
 
-program.version(JSON.parse(fs.readFileSync('./package.json', 'utf8')).version, '-v, --version', '检查vite-cli版本号')
+program.version(JSON.parse(fs.readFileSync('./package.json', 'utf8')).version, '-v, --version', '检查vite-cli-plus版本号')
 program.option('-c, --create <arg1>', '创建的项目名称')
 
 program.parse()
